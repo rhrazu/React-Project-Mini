@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.App{
+  width: 100%;
+  min-height: 100vh;
+  background:#022c19;
+  display: flex;
+}
+.container{
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  padding: 12px;
+  background: rgb(22, 30, 143);
+  box-shadow: 0 3px 6px rgba(158, 138, 138, 0.16),0 3px 6px  rgba(128, 117, 117, 0.23);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.tag {
+  margin:  10px;
+  padding: 7px 11px;
+  background: #c6d1cbde;
+  border-radius: 50px;
+
+}
+input{
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  color: #777;
+  font-size: 16px;
+}
