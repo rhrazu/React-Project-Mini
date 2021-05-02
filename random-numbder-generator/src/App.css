@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.App{
+  width: 100%;
+  min-height: 100vh;
+  background: rebeccapurple;
+  color: beige;
+  display: flex;
+}
+.App .container{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  background: #292977;
+
+}
+.App .container .randomnum{
+  background: #1d1d1d;
+  padding: 20px;
+
+  
+}
+.App .container .randomnum p span{
+  color: aliceblue;
+  font-weight: 600;
+
+}
+.App .maxContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+width: 100%;
+}
+.App .maxContainer div{
+  width: 100%;
+  max-width: 42%;
+  padding: 23px;
+}
+.App .maxContainer div input{
+  padding: 3px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: #1d1d1d;
+  color: aqua;
+
+}
+.App .container button{
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  background: #0f0fe2;
+  color: rgb(209, 158, 158);
+  padding: 14px;
+  width: 100%;
+  font-size: 22px;
+
+
+}
